@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible</title>
+    <style>
+        section {
+            display: flex;
+            border: 10px dotted indigo;
+            height: 500px;
+            box-shadow: 10px 10px 100px goldenrod;
+            /* justify-content: space-between;
+            align-items: center;*/
+            align-items: stretch;
+        }
+
+        .box {
+            border: 2px dashed royalblue;
+            box-shadow: 20px 20px 100px gold;
+            width: 200px;
+            /* height: 200px;*/
+
+        }
+
+        #box-1 {
+            order: 2;
+        }
+
+        #box-2 {
+            order: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>i am Flexible right now</h1>
+    <section>
+        <div id="box-1" class="box">BOX -1</div>
+        <div id="box-2" class="box">BOX -2</div>
+        <!--<div class="box">BOX -3</div>
+        <div class="box">BOX -4</div>-->
+    </section>
+</body>
+
+</html>

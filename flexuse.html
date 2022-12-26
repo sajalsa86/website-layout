@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flesuse</title>
+    <script src="https://kit.fontawesome.com/81b6252507.js" crossorigin="anonymous"></script>
+    <style>
+        nav a {
+            text-decoration: none;
+            margin-right: 15px;
+            color: hotpink;
+            font-size: 1.5em;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: cadetblue;
+            color: blue
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .longin-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .longin-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .longin-form input,
+        button {
+            margin-top: 10px;
+            border: 1px solid rgb(88, 52, 52);
+            padding-left: 5px;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+
+        .longin-form button {
+            background-color: blueviolet;
+            color: white;
+            font-weight: 700;
+            padding: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <span>
+            <a target="_blank" href="">Home</a>
+            <a target="_blank" href="">Products</a>
+            <a target="_blank" href="">Order</a>
+            <a target="_blank" href="">About Us</a>
+        </span>
+        <span>
+            <a target="_blank" href=""><i class="fa-solid fa-user"></i></a>
+            <a target="_blank" href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </span>
+    </nav>
+</header>
+<section>
+
+    <div class="longin-container">
+        <form class="longin-form" action="">
+            <h2>Long In your Profile</h2>
+            <input type="email" name="email" id="" required placeholder="write your email">
+            <input type="password" name="password" id="" required placeholder="write your password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</section>
+
+<body>
+
+</body>
+
+</html>

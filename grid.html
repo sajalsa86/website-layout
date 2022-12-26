@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use of Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr)2fr;
+            grid-gap: 20px 10px;
+            background-color: chartreuse;
+            padding: 20px;
+        }
+
+        .grid-cell {
+            border: 3px solid goldenrod;
+            font-size: 2em;
+            color: navy;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design
+        web
+        pages without having to use floats and positioning.
+    </h2>
+    <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in
+        one
+        dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the
+        same time.
+        The two specifications share some common features, however, and if you have already learned how to use flexbox,
+        the
+        similarities should help you get to grips with Grid.</p>
+    <div class="grid-container">
+        <div class="grid-cell">this is a Cell -1</div>
+        <div class="grid-cell">this is a Cell -2</div>
+        <div class="grid-cell">this is a Cell -3</div>
+        <div class="grid-cell">this is a Cell -4</div>
+        <div class="grid-cell">this is a Cell -5</div>
+        <div class="grid-cell">this is a Cell -6</div>
+        <div class="grid-cell">this is a Cell -7</div>
+        <div class="grid-cell">this is a Cell -8</div>
+        <div class="grid-cell">this is a Cell -9</div>
+        <div class="grid-cell">this is a Cell -10</div>
+        <div class="grid-cell">this is a Cell -11</div>
+        <div class="grid-cell">this is a Cell -12</div>
+    </div>
+</body>
+
+</html>

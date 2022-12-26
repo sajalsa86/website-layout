@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 1em;
+            grid-template-rows: 40px repeat(5, 1fr);
+            height: 600px;
+            background-color: darkkhaki;
+            border-radius: 45%;
+        }
+
+        .date,
+        .day {
+            border: 2px solid gold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            border-radius: 40%;
+        }
+
+        .date {
+            background-color: darkseagreen;
+            color: whitesmoke;
+        }
+
+        .day {
+            background-color: gold;
+            color: hotpink;
+            font-weight: 700;
+        }
+
+        .holyday {
+            color: red;
+        }
+
+        .other-month {
+            background-color: rgb(164, 189, 164);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>DECEMBER 2022</h2>
+    <div class="calendar">
+        <div class="day">SUN</div>
+        <div class="day">MON</div>
+        <div class="day">TUE</div>
+        <div class="day">WED</div>
+        <div class="day">THU</div>
+        <div class="day">FRI</div>
+        <div class="day">SAT</div>
+        <div class="date other-month"></div>
+        <div class="date other-month"></div>
+        <div class="date other-month"></div>
+        <div class="date other-month"></div>
+        <div class="date">1</div>
+        <div class="date holyday">2</div>
+        <div class="date holyday">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date holyday">9</div>
+        <div class="date holyday">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date holyday">16</div>
+        <div class="date holyday">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date holyday">23</div>
+        <div class="date holyday">24</div>
+        <div class="date holyday">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date holyday">30</div>
+        <div class="date holyday">31</div>
+
+
+    </div>
+</body>
+
+</html>
